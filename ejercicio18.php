@@ -10,7 +10,10 @@
 
 <?php
 $var1="";
-$var2="";     
+$var2="";
+$poblacion="";
+$codigopostal="";
+$text="";     
 if($_SERVER["REQUEST_METHOD"] == "POST"){
     
 //$poblacion=strip_tags($_POST["poblacion"]);
